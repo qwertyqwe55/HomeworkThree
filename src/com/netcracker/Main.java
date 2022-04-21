@@ -9,57 +9,57 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        System.out.println("=====================3.1========================");
-//        List<Product> products = new ArrayList<>();
-//        products.add(new Product("Coffe",50,false));
-//        products.add(new Product("Tea",20,false));
-//        CashRegister cashRegister = new CashRegister(100,products);
-//        System.out.println("Method give change without tax: " + cashRegister.giveChange());
-//
-//
-//        System.out.println("=====================3.2========================");
-//        List<Product> products1 = new ArrayList<>();
-//        products1.add(new Product("Coffe",50,true));
-//        products1.add(new Product("Tea",20,true));
-//        CashRegister cashRegister1 = new CashRegister(100,20,products1);
-//        System.out.println("Method givechange with tax = 20%: " + cashRegister1.giveChange());
-//        System.out.println("Final summa tax: " + cashRegister1.getTotalTax());
-//
-//        System.out.println("=====================3.4========================");
-//        Paper paper = new Paper();
-//        paper.cutInHalf();
-//        System.out.println(paper);
-//        paper.cutInHalf();
-//        System.out.println(paper);
-//        paper.cutInHalf();
-//        System.out.println(paper);
-//        paper.cutInHalf();
-//        System.out.println(paper);
-//        System.out.println("=====================3.6========================");
-//        Person dima = new Person("Dima");
-//        Person john = new Person("John");
-//        Person artem = new Person("Artem");
-//        Person petya = new Person("Petya");
-//
-//        dima.befrined(john);
-//        dima.befrined(artem);
-//        dima.befrined(petya);
-//        System.out.println("List of friends: " + dima.getFieldNames());
-//        dima.unfriend(artem);
-//        System.out.println("Friends of friend after unfriend method: " + dima.getFieldNames());
-//        System.out.println("=====================3.7========================");
-//        System.out.println("Count of friend: " + dima.getCountFriend());
-//        System.out.println("=====================3.8========================");
-//        System.out.println("Test class Student:");
-//        new StudentTester().testStudent();
-//        System.out.println("=====================3.9========================");
-//        Battery battery = new Battery(2000);
-//        System.out.println("Capacity battery: " + battery);
-//        battery.drain(1000);
-//        System.out.println("Capacity battery after remaining on 1000: " + battery.getRemainingCapacity());
-//        battery.charge();
-//        System.out.println("Capacity battery after full charge: " + battery);
-//
+        System.out.println("=====================3.1========================");
+        List<Product> products = new ArrayList<>();
+        products.add(new Product("Coffe",50,false));
+        products.add(new Product("Tea",20,false));
+        CashRegister cashRegister = new CashRegister(100,products);
+        System.out.println("Method give change without tax: " + cashRegister.giveChange());
+
+
+        System.out.println("=====================3.2========================");
+        List<Product> products1 = new ArrayList<>();
+        products1.add(new Product("Coffe",50,true));
+        products1.add(new Product("Tea",20,true));
+        CashRegister cashRegister1 = new CashRegister(100,20,products1);
+        System.out.println("Method givechange with tax = 20%: " + cashRegister1.giveChange());
+        System.out.println("Final summa tax: " + cashRegister1.getTotalTax());
+
+        System.out.println("=====================3.4========================");
+        Paper paper = new Paper();
+        paper.cutInHalf();
+        System.out.println(paper);
+        paper.cutInHalf();
+        System.out.println(paper);
+        paper.cutInHalf();
+        System.out.println(paper);
+        paper.cutInHalf();
+        System.out.println(paper);
+        System.out.println("=====================3.6========================");
+        Person dima = new Person("Dima");
+        Person john = new Person("John");
+        Person artem = new Person("Artem");
+        Person petya = new Person("Petya");
+
+        dima.befrined(john);
+        dima.befrined(artem);
+        dima.befrined(petya);
+        System.out.println("List of friends: " + dima.getFieldNames());
+        dima.unfriend(artem);
+        System.out.println("Friends of friend after unfriend method: " + dima.getFieldNames());
+        System.out.println("=====================3.7========================");
+        System.out.println("Count of friend: " + dima.getCountFriend());
+        System.out.println("=====================3.8========================");
+        System.out.println("Test class Student:");
+        new StudentTester().testStudent();
+        System.out.println("=====================3.9========================");
+        Battery battery = new Battery(2000);
+        System.out.println("Capacity battery: " + battery);
+        battery.drain(1000);
+        System.out.println("Capacity battery after remaining on 1000: " + battery.getRemainingCapacity());
+        battery.charge();
+        System.out.println("Capacity battery after full charge: " + battery);
+
        System.out.println("=====================8.1========================");
         Combolock combolock = new Combolock(5,6,25);
         combolock.turnRight(5);
